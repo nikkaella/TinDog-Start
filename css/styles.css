@@ -12,12 +12,11 @@ h1 {
 
 h3 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #features {
     text-align: center;
-    font-size: 1.5rem;
 }
 
 #title {
@@ -36,8 +35,12 @@ h3 {
     padding: 3% 15%;
 }
 
+.fas {
+    color: #EF8172;
+}
+
 .features-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #8f8f8f;
 }
 
