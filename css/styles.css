@@ -27,7 +27,7 @@ h3 {
 /* Title Section */
 
 #title {
-    background-image: linear-gradient(to bottom right, #ff4c68, goldenrod);
+    background-image: linear-gradient(to bottom right, #ff4c68, #EF8172);
 }
 
 .btn {
@@ -36,6 +36,7 @@ h3 {
 
 .navbar-brand {
     font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
 }
 
 .nav-link {
@@ -94,4 +95,33 @@ h3 {
 /* Pricing Section */
 .card {
     width: 90%;
+}
+
+/* Call To Action Section */
+
+#cta {
+    background-image: linear-gradient(to bottom right, #EF8172 ,#FF4D69);
+}
+
+/* Footer Section */
+
+#id {
+    padding: 5%;
+}
+
+.fa-envelope {
+    color: #000;
+}
+
+@media (max-width: 1336px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
 }
