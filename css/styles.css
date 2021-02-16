@@ -10,38 +10,32 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    font-weight: 700;
+    line-height: 1.5;
+}
+
 h3 {
     font-weight: 700;
     font-size: 1.2rem;
-}
-
-#features {
-    text-align: center;
-}
-
-#title {
-    background-color: #ff4c68;
-}
-
-.navbar-brand {
-    font-family: "Ubuntu", sans-serif;
-}
-
-.btn {
-    font-family: "Montserrat", sans-serif;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-.fas {
-    color: #EF8172;
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
 }
 
-.features-text {
-    font-size: 1.2rem;
-    color: #8f8f8f;
+.btn {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
 }
 
 .nav-link {
@@ -51,4 +45,44 @@ h3 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+}
+
+.fas {
+    color: #EF8172;
+}
+
+.fas:hover {
+    color: #FF4D69;
+}
+
+.features-text {
+    font-size: 0.9rem;
+    color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #EF8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #EF8172;
+}
+
+.press-logo {
+    width: 15%;
 }
