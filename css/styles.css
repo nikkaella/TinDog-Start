@@ -2,30 +2,24 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+.container-fluid {
+    padding: 7% 10%;
+}
+
+/* Title Section */
+#title {
+    background-image: linear-gradient(to bottom right, #ff4c68, #EF8172);
+}
+
+#title .container-fluid, #press .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.big-heading {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
     color: #fff;
-}
-
-h2, h3 {
-    font-weight: 700;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.2rem;
-}
-
-.container-fluid {
-    padding: 3% 10%;
-}
-
-/* Title Section */
-
-#title {
-    background-image: linear-gradient(to bottom right, #ff4c68, #EF8172);
 }
 
 .navbar-brand {
@@ -44,7 +38,6 @@ h3 {
 }
 
 /* Features Section */
-
 #features {
     position: relative;
     background-color: #fff;
@@ -58,13 +51,18 @@ h3 {
     color: #FF4D69;
 }
 
+.features-header {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
 .features-text {
     font-size: 0.9rem;
     color: #8f8f8f;
 }
 
 /* Testimonial Section */
-
 #testimonials {
     background-color: #EF8172;
     color: #fff;
@@ -76,8 +74,12 @@ h3 {
     border-radius: 100%;
 }
 
-/* Press Section */
+.testimonials-text {
+    font-weight: 700;
+    line-height: 1.5;
+}
 
+/* Press Section */
 #press {
     background-color: #EF8172;
 }
@@ -91,14 +93,23 @@ h3 {
     width: 90%;
 }
 
-/* Call To Action Section */
+.pricing-header {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
 
+.pricing-text {
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Call To Action Section */
 #cta {
-    background-image: linear-gradient(to bottom right, #EF8172 ,#FF4D69);
+    background-image: linear-gradient(to bottom right, #EF8172, #FF4D69);
 }
 
 /* Footer Section */
-
 #id {
     padding: 5%;
 }
@@ -117,5 +128,4 @@ h3 {
         transform: rotate(0);
         width: 60%;
     }
-
 }
